@@ -9,7 +9,6 @@ export default class Content extends Component{
             name:''
         }
     }
-
     addNum=()=>{
         this.setState({
             count:this.state.count+1,
